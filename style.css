@@ -1,0 +1,110 @@
+* {
+background: wheat;
+font-family: 'Inter', sans-serif;
+font-weight: 400;
+font-size: 32px;
+line-height: 150%;
+}
+
+.logoAlura {
+    margin-left: 10px;
+    padding-top: 10px;
+    width:  2%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+    
+}
+
+.text-area {
+    border: none;
+    color: darkblue;
+    margin-top: 90px;
+    text-transform: lowercase;
+    
+}
+
+::placeholder {color: darkblue; }
+    .text-area:focus {
+        outline: none;
+    }
+
+.mensagem {
+    background-color: antiquewhite;
+    background-image: url(pesquisador.png);
+    background-repeat: no-repeat;
+    border: solid 3px black;
+    border-radius: 24px;
+    color: darkblue;
+    margin-left: 98px;
+    margin-top: 100px;
+    position: fixed;
+}
+
+.mensagem:focus {
+    outline: none;
+}
+
+.botoes {
+    display: flex;
+    margin-top: 18px;
+    
+}
+.btn-encriptar {
+    background-color: darkblue;
+    border: 1px solid darkgreen;
+    border-radius: 24px;
+    color: rgb(4, 247, 4);
+    cursor: pointer;
+    height: 60px;
+    width: 270px;
+}
+.btn-desencriptar {
+    background-color: darkblue;
+    border: 1px solid black;
+    border-radius: 24px;
+    color: darkorange;
+    cursor: pointer;
+    height: 60px;
+    width: 270px;
+}
+.btn-copiar {
+    background-color: black ;
+    border: 3px solid darkorange;
+    border-radius: 24px;
+    color: darkorange;
+    cursor: pointer;
+    height: 57px;
+    margin-left: 118px;
+    margin-top: 512px;
+    position: fixed;
+    width: 340px;
+}
+.btn-colar {
+    background-color: black ;
+    border: 3px solid darkorange;
+    border-radius: 24px;
+    color: darkorange;
+    cursor: pointer;
+    height: 57px;
+    margin-left: 118px;
+    margin-top: 512px;
+    position: absolute;
+    width: 340px;
+   
+    
+}
+
+.informacao {
+    color:gray;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+.icone {
+    width: 16px;
+    height: 16px;
+}
